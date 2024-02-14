@@ -21,9 +21,9 @@ margin-top: 20px;}
 
 .espacial { background-color: #BBB; text-align: justify;} 
 .lista { background-color: #BBB; } 
-.horario {background-color: #DDD;}
-article b {color: purple;}
-#bra { color: blue;}
+.horario {background-color: #DDD; }
+article b {color: purple; }
+#bra { color: blue; }
 table td { border: 1px solid #dddddd; border-style: ridge; border-color: green; text-align: center; }
 table th { border-width: 1px solid #dddddd; border-style: ridge; border-color: green; text-align: center; }
 .hora { color: #444 }
