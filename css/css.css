@@ -37,7 +37,8 @@ table th { border-width: 1px solid #dddddd; border-style: ridge; border-color: g
 .dyp { background-color: yellow; }
 .fis { background-color: orange; }
 ol { color: purple; list-style-type: upper-alpha; }
-.ola { color: blue;  list-style-type: square; }
+ol ol{ color: blue;  list-style-type: lower-alpha; }
+ol
 footer {
   width: 80%;
   margin: 0 auto;
