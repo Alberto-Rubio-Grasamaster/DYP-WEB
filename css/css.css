@@ -1,0 +1,50 @@
+header { border-width: 2px; 
+    border-color: black;
+    border-style: inset; 
+    background-color: #456789;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px; }
+
+article { padding-left: 50px;
+    padding-right: 50px; 
+padding-top: 20px;
+padding-bottom: 20px;
+width: 80%;
+margin: 0 auto;
+margin-top: 20px;}
+
+.espacial { background-color: #BBB; text-align: justify;} 
+.lista { background-color: #BBB; } 
+.horario {background-color: #DDD;}
+article b {color: purple;}
+h2 { color: blue;}
+table td { border: 1px solid #dddddd; border-style: ridge; border-color: green; text-align: center; }
+table th { border-width: 1px solid #dddddd; border-style: ridge; border-color: green; text-align: center; }
+.hora { color: #444 }
+.recreo { background-color: green; color: white; }
+.tech { background-color: gray; }
+.lyl { background-color: red; }
+.mat { background-color: lightblue; }
+.ing { background-color: brown; }
+.his { background-color: magenta; }
+.filo { background-color: purple; }
+.dyp { background-color: yellow; }
+.fis { background-color: orange; }
+ol { color: purple; list-style-type: lower-alpha; }
+.ola { color: blue;  list-style-type: square; }
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: black;
+  color: white;
+  text-align: center; }
+  footer span { font-size: 30px; }
+  
