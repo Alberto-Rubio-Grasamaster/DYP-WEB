@@ -2,11 +2,14 @@
 <html lang="es">
 <head>
   <meta charset="utf−8">
-<title> </title>
+<title>Hola</title>
 </head>
 <body>
 <script type="text/javascript">
-texto = "Alberto Rubio Valdés 2º de Bachillerato C";
+document.write(
+Alberto Rubio Valdés
+)
+texto = "2º de Bachillerato C";
       document.write(texto);
     </script>
   </body>
