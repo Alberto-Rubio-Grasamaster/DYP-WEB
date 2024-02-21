@@ -8,7 +8,7 @@
 <script type="text/javascript">
 document.write(
 Alberto Rubio Valdés
-)
+);
 texto = "2º de Bachillerato C";
       document.write(texto);
     </script>
