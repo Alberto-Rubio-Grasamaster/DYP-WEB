@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<title> </title>
+</head>
+<body>
+    <script type="text/javascript">
+        function mostrarVentanas () {
+            alert("¡Hola Mundo!");
+            confirm("¿Te está gustando la lección?");
+        }
+
+    </script>
+  <Input type="button" value="Pulsar" onclick="mostrarVentanas()">
+</body>
+</html>
