@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventanas Emergentes</title>
+</head>
+<body>
+
+<button onclick="mostrarVentanas()">Mostrar Ventanas</button>
+
+<script>
+function mostrarVentanas() {
+    // Ventana emergente con el mensaje "¡Hola Mundo!"
+    window.alert("¡Hola Mundo!");
+
+    // Ventana de confirmación con el mensaje "¿Te ha gustado la lección?"
+    var respuesta = window.confirm("¿Te ha gustado la lección?");
+
+    // Verificamos la respuesta y mostramos un mensaje en función de ella
+    if (respuesta) {
+        window.alert("¡Qué bueno que te haya gustado!");
+    } else {
+        window.alert("Oh, lo siento. Trabajaremos para mejorar.");
+    }
+}
+</script>
+
+</body>
+</html>
