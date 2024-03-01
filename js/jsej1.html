@@ -10,19 +10,18 @@
       var n1 = parseFloat(prompt("Ingresa el primer número", "0"));
       var n2 = parseFloat(prompt("Ingresa el segundo número", "0"));
       var resultadoE = document.getElementById("resultado")
-      
-
         var suma = n1 + n2 
         var resta = n1 - n2
         var division = n1 / n2 
         var mult = n1 * n2
-        resultadoE.appendChild(suma)
-      resultadoE.appendChild(resta)
-      resultadoE.appendChild(division)
-      resultadoE.appendChild(mult)
-      
-    
-        
+        var sumaT = document.createTextNode("Suma: " + suma);
+      var restaT = document.createTextNode("Resta: " + resta);
+      var divisionT = document.createTextNode("División: " + division);
+      var multT = document.createTextNode("Multiplicación: " + mult);
+      resultadoE.appendChild(sumaTexto);
+      resultadoE.appendChild(restaTexto);
+      resultadoE.appendChild(divisionTexto);
+      resultadoE.appendChild(multTexto);
     </script>
   
   </body>
