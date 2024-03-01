@@ -5,19 +5,27 @@
 <title></title>
 </head>
 <body>
+  <div id="resultado"></div>
   <script type="text/javascript">
     function calculadora() {
-        var n1 = parseFloat(document.getElementById("num1"));
-        var n2 = parseFloat(document.getElementById("num2"));
-
-        n2 = parseFloat(window.prompt(, default));
+      var n1 = parseFloat(prompt("Ingresa el primer número", "0"));
+      var n2 = parseFloat(prompt("Ingresa el segundo número", "0"));
+      var resultadoE = document.getElementById("resultado")
+      
 
         var suma = n1 + n2 
         var resta = n1 - n2
         var division = n1 / n2 
-        var mult = n1 * n2}
+        var mult = n1 * n2
+        resultadoE.appendChild(suma)
+      resultadoE.appendChild(resta)
+      resultadoE.appendChild(division)
+      resultadoE.appendChild(mult)
+        
+    }
+    
         
     </script>
-    <button onclick="calculadora()">Calcular</button>
+  
   </body>
 </html>
