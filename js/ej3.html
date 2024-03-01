@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mostrar Nombre en Negrita</title>
+</head>
+<body>
+
+<div id="resultado"></div>
+
+<script>
+var nombre = "Alberto Rubio Valdés";
+  
+var nombreEnNegrita = document.createElement('b');
+nombreEnNegrita.textContent = nombre;
+
+var resultadoElemento = document.getElementById("resultado");
+
+resultadoElemento.appendChild(nombreEnNegrita);
+</script>
+
+</body>
+</html>
